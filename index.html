@@ -1,45 +1,148 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>My portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css.style.css">
-    
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
+
 <body class="div">
-    <div class="sidenav">
-        <a href="#">About</a>
-        <a href="#">Education</a>
-        <a href="#">Activities</a>
-        <a href="#">Contact</a>
-    </div>
+	
+<div class="sidenav">
+  <a href="#about">About Myself</a>
+  <a href="#education">Education</a>
+  <a href="#activities">Activities</a>
+  <a href="#experience">Experience</a>
+</div>
 
-    <h1>Danny Toeun Kim</h1>
-    <h2>profile</h2>
-    <a href="https://www.facebook.com/profile.php?id=100007932972012">
-    <i class="fa fa-facebook-official" aria-hidden="true"></i>
-    </a>
+<script>
 
-    <p>I am a boy</p>
-    <ul>
-        <li>computer science student</li>
-        <li>two</li>
-        <li>three</li>
-    </ul>
-    <img src="coding.jpeg" height="200px", width="300px">
-    <div>
-        <h1>this is a division</h1>
-        <p>hello</p>
+function welcomeMessage(name){
+    if (gender == "Male"){
+        alert("Welcome Mr. " + name);
+    }
+    else if (gender == "Female"){
+        alert("Welcome Ms. " + name);
+    }
+    else{
+        alert("Welcome " + name);
+    }
+}
 
-        <a href="https://www.google.co.uk/">Google</a>
+var name = prompt("Hey what is your name?", "");
+var gender = prompt("what is your gender");
 
-    </div>
+welcomeMessage(name);
 
-    <div>
-
-
-    </div>
+</script>
 
 
+<div class="main" id = "about">
+  <h1> About Myself</h1>
+    <p> <strong>Name</strong> </p>
+        <li>Danny Toeun Kim</li>
+    
+    <p> <strong>Nationality</strong> </p>
+        <li>South Korea</li>
+
+  <a href="https://www.facebook.com/profile.php?id=100007932972012">
+   <i class="fa fa-facebook-official" aria-hidden="true" ></i> 
+   </a>
+   <a href="https://github.com/kimdanny">
+   <i class="fa fa-github" aria-hidden="true" ></i> 
+   </a>
+
+</div>
+
+
+<div class="main" id = "education">
+  <h1> Education</h1>
+    <p> 
+        <ol>Sangmoon General Highschool <br>
+            in South Korea
+        </ol>
+        <ol>Undergraduate Preparatory Certificate of Science and Engineering <br>
+            at <a href="https://www.ucl.ac.uk/"><strong>University College London</strong></a>
+        </ol>
+        <ol>BSc in Computer Science <br>
+            at
+            <a href="https://www.ucl.ac.uk/">
+                <strong>University College London</strong>
+            </a>
+        </ol>
+
+    </p>
+
+  <a href="https://www.facebook.com/profile.php?id=100007932972012">
+   <i class="fa fa-facebook-official" aria-hidden="true" ></i> 
+   </a>
+   <a href="https://github.com/kimdanny">
+   <i class="fa fa-github" aria-hidden="true" ></i> 
+   </a>
+</div>
+
+
+<div class="main" id = "activities">
+  <h1> Activities</h1>
+    <p> <strong>During School years</strong> <br>
+        <ol>English Parliamentary Debate Class</ol>
+        <ol>Humanatics Acadamia</ol>
+        <ol>Private Teacher (Math and English)</ol>
+    </p>
+
+<br>
+<br>
+
+    <p> <strong>During Uni years</strong>  <br>
+        <h2>Societies</h2>
+            <ol>
+                <a href="https://www.ucltechsoc.com/">Technology Society</a>
+            </ol>
+            <ol>Guild Society</ol>
+            <ol>Data Science Society</ol>
+            <ol>Entrepreneurs Society</ol>
+            <ol>Asia Career Society</ol>
+    </p>
+
+
+  <a href="https://www.facebook.com/profile.php?id=100007932972012">
+   <i class="fa fa-facebook-official" aria-hidden="true" ></i> 
+   </a>
+   <a href="https://github.com/kimdanny">
+   <i class="fa fa-github" aria-hidden="true" ></i> 
+   </a>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="main" id = "experience">
+  <h1> Experience</h1>
+  <p> Summary</p>
+
+  <a href="https://www.facebook.com/profile.php?id=100007932972012">
+   <i class="fa fa-facebook-official" aria-hidden="true" ></i> 
+   </a>
+   <a href="https://github.com/kimdanny">
+   <i class="fa fa-github" aria-hidden="true" ></i> 
+   </a>
+
+</div>
 </body>
 </html>
